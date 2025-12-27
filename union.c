@@ -12,8 +12,10 @@ void main(){
     // var.name = "nitesh";
 
     ptr = &var;
-    printf("%f", ptr->marks);
-    printf("\n%d", ptr->rollno);
-    
+    // printf("%f\n", ptr->marks);
+    // printf("%d\n", ptr->rollno);
+
+    printf("%d\n", sizeof(var));
+
     // printf("\n%c", ptr->name);
 }

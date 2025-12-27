@@ -14,4 +14,5 @@ void main(){
 
     printf("%d\n", ptr->a);
     printf("%d", ptr->b);
+
 }

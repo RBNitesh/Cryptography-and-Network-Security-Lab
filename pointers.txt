@@ -1,0 +1,12 @@
+1. Wild Pointer: A wild pointer is a pointer that is declared but not assigned a valid address. It points to some random, unknown memory location.
+
+2. Dangling Pointer: A dangling pointer is a pointer that once pointed to valid memory location but no longer does. The memory it refers to has been freed or gone out of scope.
+
+3. NULL Pointer: It is a pointer whose value is NULL (or 0 internally), meaning it is guaranteed not to point to any object or function.
+
+
+malloc: It allocates single block of memory in the heap.
+syntax: malloc(sizeof block);
+
+calloc: It allocates multiple block of memory in the heap.
+syntax: calloc(n, sizeof block); where n is the no. of blocks.
